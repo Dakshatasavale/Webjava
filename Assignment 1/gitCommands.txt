@@ -1,0 +1,55 @@
+
+D:\web_java\JDBC_Project\src\practice>git init
+Initialized empty Git repository in D:/web_java/JDBC_Project/src/practice/.git/
+
+D:\web_java\JDBC_Project\src\practice>git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        StudDao.java
+        Student.java
+        StudentDao.java
+        StudentMain.java
+        StudentQuery.java
+        StudentUtils.java
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+D:\web_java\JDBC_Project\src\practice>git add .
+
+D:\web_java\JDBC_Project\src\practice>git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   StudDao.java
+        new file:   Student.java
+        new file:   StudentDao.java
+        new file:   StudentMain.java
+        new file:   StudentQuery.java
+        new file:   StudentUtils.java
+
+
+D:\web_java\JDBC_Project\src\practice>git commit -m "Web java Assignment1"
+[master (root-commit) c4283b8] Web java Assignment1
+ 6 files changed, 331 insertions(+)
+ create mode 100644 StudDao.java
+ create mode 100644 Student.java
+ create mode 100644 StudentDao.java
+ create mode 100644 StudentMain.java
+ create mode 100644 StudentQuery.java
+ create mode 100644 StudentUtils.java
+
+D:\web_java\JDBC_Project\src\practice>git branch -M main
+
+D:\web_java\JDBC_Project\src\practice>git remote add origin https://github.com/Dakshatasavale/Webjava.git
+
+D:\web_java\JDBC_Project\src\practice>git push -u origin main
+info: please complete authentication in your browser...
+
+D:\web_java\JDBC_Project\src\practice>git push -u origin main
